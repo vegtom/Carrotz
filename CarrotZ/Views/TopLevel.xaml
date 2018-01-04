@@ -1,5 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CarrotZ.Views.TopLevel">
-	<ContentPage.Content>
-	</ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage    Title="TopLevel"
+                xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+                x:Class="CarrotZ.Views.TopLevel">
+    <StackLayout Padding="0,20,0,0">
+        <Button x:Name="Btn_Positive" Text="Positive" Clicked="positive_clicked"/>
+        <Button x:Name="Btn_Negative" Text="negative" Clicked="negative_clicked"/>
+    </StackLayout>
 </ContentPage>

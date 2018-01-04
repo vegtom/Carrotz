@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using CarrotZ.Views;
 
 namespace CarrotZ
 {
@@ -8,7 +9,7 @@ namespace CarrotZ
         {
             InitializeComponent();
 
-            MainPage = new CarrotZPage();
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

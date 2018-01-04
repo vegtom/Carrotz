@@ -3,8 +3,6 @@ namespace CarrotZ.Models
 {
     public class Constants
     {
-        public Constants()
-        {
-        }
+        public static bool IsDev = true;
     }
 }

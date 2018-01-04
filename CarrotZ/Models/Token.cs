@@ -8,6 +8,7 @@ namespace CarrotZ.Models
         public string error_description { get; set; }
         public DateTime expire_date { get; set; }
 
-        public Token
+        public Token() { }
+
     }
 }
